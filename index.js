@@ -13,6 +13,6 @@ app.use("/admin", adminRouter)
 app.use("/user", userRouter)
 
 // connecting to mongoDb
-mongoose.connect('mongodb+srv://vishuvishalbanotra:******@cluster0.rp9vsvt.mongodb.net/Coursill', {useNewUrlParser: true, useUnifiedTopology: true, dbName: "Coursill"})
+mongoose.connect()
 
 app.listen(3000, () => console.log("App is running on port 3000"))
